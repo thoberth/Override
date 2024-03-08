@@ -96,7 +96,7 @@ Dump of assembler code for function main:
 
 understanding the main:
 - a fork is called, and ptrace is used to keep an eye on
-- if exec() is called the child is called so we cannot use it in our shellcode
+- if exec() is called the child is killed so we cannot use it in our shellcode
 
 ## setting to follow child process
 
